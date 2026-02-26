@@ -44,8 +44,8 @@ Das System bewertet Prozesse anhand von **7 Bewertungsdimensionen**:
    - Betriebsrisiken (Fehlerfolgen, Kritikalität, Kontrollanforderungen)
 
 7. **Wirtschaftlichkeit**
-   - ROI-Berechnung, Payback Period, NPV
-   - Automatische Berechnung von Einsparungspotenzialen
+   - ROI-Berechnung
+   - Automatische Berechnung
 
 ### Bewertungslogik
 
@@ -70,6 +70,7 @@ Für jede Dimension werden **spezifische Empfehlungen** generiert:
 
 ### Voraussetzungen
 
+- git
 - **Python 3.8 oder höher**
 - pip (Python Package Manager)
 - Empfohlen: Virtuelle Umgebung (venv)
@@ -114,7 +115,7 @@ python seed_data.py
 
 Dies erstellt:
 - SQLite-Datenbank unter `data/decision_support.db`
-- Alle 5 Dimensionen mit Fragen und Skalen
+- Alle Dimensionen mit Fragen und Skalen
 - Scoring-Regeln für RPA und IPA
 - Testdaten für die Validierung
 
@@ -124,10 +125,6 @@ Dies erstellt:
 python main.py
 ```
 Die Datenbank wird durch seed_data.py lokal initialisiert.
-Dies erstellt:
-- SQLite-Datenbank unter `data/decision_support.db`
-- Alle 5 Dimensionen mit Fragen und Skalen
-- Scoring-Regeln für RPA und IPA
 
 Die Anwendung ist dann erreichbar unter:
 
@@ -149,10 +146,7 @@ rm data/decision_support.db
 python seed_data.py
 python main.py
 ```
-
-
 ## 🗂️ Projektstruktur
-
 ```
 AutomationFit/
 ├── main.py                      # Flask-App & Routing
