@@ -79,7 +79,7 @@ Für jede Dimension werden **spezifische Empfehlungen** generiert:
 
 ```bash
 git clone https://github.com/annihlj/Automation_Fit.git
-cd AutomationFit
+cd Automation_Fit
 ```
 
 ### Schritt 2: Virtuelle Umgebung erstellen (empfohlen)
@@ -107,24 +107,17 @@ pip install -r requirements.txt
 - SQLAlchemy 2.0+
 - Weitere Abhängigkeiten siehe `requirements.txt`
 
-### Schritt 4: Datenbank initialisieren
-
-```bash
-python seed_data.py
-```
-
-Dies erstellt:
-- SQLite-Datenbank unter `data/decision_support.db`
-- Alle Dimensionen mit Fragen und Skalen
-- Scoring-Regeln für RPA und IPA
-- Testdaten für die Validierung
-
 ### Schritt 4: Anwendung starten
 
 ```bash
 python main.py
 ```
 Die Datenbank wird durch seed_data.py lokal initialisiert.
+Dies erstellt:
+- SQLite-Datenbank unter `data/decision_support.db`
+- Alle Dimensionen mit Fragen und Skalen
+- Scoring-Regeln für RPA und IPA
+- Testdaten für die Validierung
 
 Die Anwendung ist dann erreichbar unter:
 
