@@ -78,7 +78,7 @@ Für jede Dimension werden **spezifische Empfehlungen** generiert:
 ### Schritt 1: Repository klonen
 
 ```bash
-git clone [<repository-url>](https://github.com/annihlj/Automation_Fit.git)
+git clone https://github.com/annihlj/Automation_Fit.git
 cd AutomationFit
 ```
 
