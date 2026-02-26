@@ -1,6 +1,6 @@
 ## 📋 Benutzerhandbuch
 
-Dieses Handbuch führt dich Schritt für Schritt durch die Verwendung von AutomationFit, von der ersten Prozessbewertung bis zur Interpretation der Ergebnisse.
+Dieses Handbuch führt dich Schritt für Schritt durch die Verwendung von Automation Fit, von der ersten Prozessbewertung bis zur Interpretation der Ergebnisse.
 
 ---
 
@@ -8,7 +8,7 @@ Dieses Handbuch führt dich Schritt für Schritt durch die Verwendung von Automa
 
 1. **Öffne** http://127.0.0.1:5000 im Browser
 2. **Klicke** auf "Fragebogen" in der Navigation
-3. **Fülle** die Prozessinformationen aus und beantworte die Fragen
+3. **Fülle** die Informationen aus und beantworte die Fragen
 
 ---
 
@@ -82,8 +82,8 @@ Der Fragebogen ist in **7 Dimensionen** unterteilt.
    - Betriebsrisiken (Fehlerfolgen, Kritikalität, Kontrollanforderungen)
 
 7. **Wirtschaftlichkeit**
-   - ROI-Berechnung, Payback Period, NPV
-   - Automatische Berechnung von Einsparungspotenzialen
+   - ROI-Berechnung
+   - Automatische Berechnung
 
 ## 📊 3. Ergebnisse verstehen und interpretieren
 
@@ -122,7 +122,7 @@ Klappt alle Dimensionen auf, um Details zu sehen
 ### Wann ist ein Vergleich sinnvoll?
 
 ✅ **Mehrere Prozesse** priorisieren  
-✅ **Vor/Nach-Optimierung** vergleichen  
+✅ **Vor-/Nach-Optimierung** vergleichen  
 ✅ **Best Practices** identifizieren
 
 
