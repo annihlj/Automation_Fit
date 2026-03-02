@@ -131,6 +131,8 @@ http://127.0.0.1:5000
 - Die Datenbank wird automatisch erstellt
 - Seed-Daten werden eingefügt
 - Der Start kann 10-30 Sekunden dauern
+- Port 5000 darf nicht belegt sein, da die Anwendung standardmäßig auf diesem Port startet.
+- Falls Port 5000 bereits verwendet wird, beende den entsprechenden Prozess oder starte die Anwendung auf einem anderen Port.
 
 ⚠️ **Bei Fehlern:**
 ```bash
@@ -139,6 +141,13 @@ rm data/decision_support.db
 python seed_data.py
 python main.py
 ```
+
+⚠️ **Bei falscher/inkompatibler Paketversion (z. B. SQLAlchemy / Flask-SQLAlchemy):**
+```
+python -m pip install --upgrade Flask-SQLAlchemy
+python -m pip install --upgrade SQLAlchemy
+```
+
 ## 🗂️ Projektstruktur
 ```
 AutomationFit/
